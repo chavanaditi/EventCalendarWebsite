@@ -1,0 +1,3 @@
+# EventCalendarWebsite
+The event calendar is a website which allows the students/faculty/staff to keep a track of all the upcoming events, orientations etc. It integrates the event details of various clubs onto a single platform. The students hence need not keep track of each of these club activities individually, they can simply tune to the Event Calendar website. 
+The calendar contents are handled by the respective club/group Representatives, who are provided with a unique login identity by the admin. The club Representatives can view, add, update and delete the event details as per requirements.
