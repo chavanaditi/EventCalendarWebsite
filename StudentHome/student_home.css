@@ -1,0 +1,302 @@
+html{
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/a2.jpg);
+  background-size: cover;
+  background-position: center;
+  height:100vh;
+}
+
+ul{
+  float: right;
+  list-style-type: none;
+  margin-top: 25px;
+}
+
+ul li{
+  display: inline-block;
+}
+
+ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px;
+  border: 1px solid #fff;   /*border: 1px solid transparent;*/
+  transition: 0.6s ease;
+}
+
+ul li a:hover{
+  background-color: white;
+  color: black;
+}
+
+ul li.active a{
+  background-color: white;
+  color: black;
+}
+
+.logo img{
+  margin-top: 10px;
+  float: left;
+  width: 100px;
+  height: 75px;
+}
+
+.main{
+  max-width:1200px;
+  margin: auto;
+}
+
+footer{
+  padding-top: 14px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+  background-color: yellow;
+  color: black;
+  text-align: center;
+}
+
+.front{
+  background: linear-gradient(90deg, #0086FF, #0066FF);
+}
+
+.back{
+  background: linear-gradient(90deg, #FF2A78, #F100AE);
+  transform: rotateY(-180deg);  
+}
+
+.front, .back{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  backface-visibility: hidden;
+}
+
+/* Script */
+.card-container1{
+  width: 180px;
+  height: 90px;
+  border-radius: 10px;
+  perspective: 900px;
+  background-color: transparent;
+
+  margin-top: 10px;
+}
+
+.card1{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: all .7s;
+  transform-style: preserve-3d;
+}
+
+.card-container1:hover .card1{
+  transform: rotateY(-180deg);
+}
+
+/* SWE */
+.card-container2{
+  width: 180px;
+  height: 90px;
+  border-radius: 10px;
+  perspective: 900px;
+  background-color: transparent;
+  
+  float: right;
+  margin-right: 300px;
+  margin-top: 10px;
+}
+
+.card2{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: all .7s;
+  transform-style: preserve-3d;
+}
+
+.card-container2:hover .card2{
+  transform: rotateY(-180deg);
+}
+
+
+/* CSI */
+.card-container3{
+  width: 180px;
+  height: 90px;
+  border-radius: 10px;
+  perspective: 900px;
+  background-color: transparent;
+
+  margin-left: 300px;
+  margin-top: 10px;
+}
+
+.card3{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: all .7s;
+  transform-style: preserve-3d;
+}
+
+.card-container3:hover .card3{
+  transform: rotateY(-180deg);
+}
+
+/* Aarohan */
+.card-container4{
+  width: 180px;
+  height: 90px;
+  border-radius: 10px;
+  perspective: 900px;
+  background-color: transparent;
+
+  float: left;
+  margin-left: 100px;
+  margin-top: 30px;
+}
+
+.card4{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: all .7s;
+  transform-style: preserve-3d;
+}
+
+.card-container4:hover .card4{
+  transform: rotateY(-180deg);
+}
+
+.cc_main{
+  width: 200px;
+  height: 160px;
+  border-radius: 50px;
+  perspective: 900px;
+  background-color: transparent;
+
+  float:left;
+  margin-left: 295px;
+}
+
+.c_main{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: all .7s;
+  transform-style: preserve-3d;
+}
+
+.cc_main:hover .c_main{
+  transform: rotateY(-180deg);
+}
+
+/* P & G */
+.card-container5{
+  width: 180px;
+  height: 90px;
+  border-radius: 10px;
+  perspective: 900px;
+  background-color: transparent;
+
+  float: left;
+  margin-left: 270px;
+  margin-top: 30px;
+}
+
+.card5{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: all .7s;
+  transform-style: preserve-3d;
+}
+
+.card-container5:hover .card5{
+  transform: rotateY(-180deg);
+}
+
+/* E-cell */
+.card-container6{
+  width: 180px;
+  height: 90px;
+  border-radius: 10px;
+  perspective: 900px;
+  background-color: transparent;
+  
+  float: right;
+  margin-right: 300px;
+  margin-top: 50px;
+  
+}
+
+.card6{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: all .7s;
+  transform-style: preserve-3d;
+}
+
+.card-container6:hover .card6{
+  transform: rotateY(-180deg);
+}
+
+
+/* Mit Cultural */
+.card-container7{
+  width: 180px;
+  height: 90px;
+  border-radius: 10px;
+  perspective: 900px;
+  background-color: transparent;
+
+  float: right;
+  margin-right:350px;
+}
+
+.card7{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: all .7s;
+  transform-style: preserve-3d;
+
+}
+
+.card-container7:hover .card7{
+  transform: rotateY(-180deg);
+}
+
+/* Anantra Tantra */
+.card-container8{
+  width: 180px;
+  height: 90px;
+  border-radius: 10px;
+  perspective: 900px;
+  background-color: transparent;
+
+
+  margin-top: 280px;
+}
+
+.card8{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: all .7s;
+  transform-style: preserve-3d;
+}
+
+.card-container8:hover .card8{
+  transform: rotateY(-180deg);
+}
