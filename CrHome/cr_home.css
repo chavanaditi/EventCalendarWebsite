@@ -1,0 +1,176 @@
+*{
+  margin-top: 0px;
+  padding: 0;
+}
+
+html{
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/a2.jpg);
+  background-size: cover;
+  background-position: center;
+  height:100vh;
+}
+
+div{
+  height: 100px;
+  float: left;
+}
+
+
+.logo{
+  /*background-color: red;*/
+  width: 20%;
+}
+
+.logo img{
+  margin-top: 10px;
+  float: left;
+  width: 100px;
+  height: 75px;
+  margin-left: 80px;
+}
+
+.title{
+  /*background-color: yellow;*/
+  width: 40%;
+  text-align: center;
+  color: yellow;
+}
+
+.title h1{
+  margin-top: 25px;
+}
+
+.nav{
+  /*background-color: orange;*/
+  width: 40%;
+}
+
+ul{
+  float: right;
+  list-style-type: none;
+  margin-top: 25px;
+  margin-right: 5px;
+}
+
+ul li{
+  display: inline-block;
+}
+
+ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px;
+  border: 1px solid #fff;   /*border: 1px solid transparent;*/
+  transition: 0.6s ease;
+}
+
+ul li a:hover{
+  background-color: white;
+  color: black;
+}
+
+ul li.active a{
+  background-color: white;
+  color: black;
+}
+
+.r1{
+  /*background-color: green;*/
+  width: 100%;
+  height: 160px;
+}
+
+.r2{
+  /*background-color: blue;*/
+  width: 100%;
+  height: 160px;
+}
+
+.r3{
+  /*background-color: violet;*/
+  width: 100%;
+  height: 160px;
+}
+
+footer{
+  padding-top: 14px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+  background-color: yellow;
+  color: black;
+  text-align: center;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 10%;
+}
+
+.button1 {
+  margin-top: 30px;
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+  margin-left: 300px;
+  width: 15%;
+}
+
+.button1:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+  margin-left: 300px;
+  width: 15%;
+}
+
+.button2:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+.button3 {
+  margin-top: 30px;
+  background-color: white; 
+  color: black; 
+  border: 2px solid #8c8c8c;
+  margin-left: 300px;
+  width: 15%;
+}
+
+.button3:hover {
+  background-color: #8c8c8c;
+  color: white;
+}
+
+.button4 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid  #f44336;
+  margin-left: 300px;
+  width: 15%;
+}
+
+.button4:hover {
+  background-color:  #f44336;
+  color: white;
+}
